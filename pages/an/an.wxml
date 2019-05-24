@@ -1,0 +1,20 @@
+<!--pages/an/an.wxml-->
+<!-- <text>pages/an/an.wxml</text> -->
+<view class='top'>
+  <button bindtap='change'>{{clear}}</button>
+  <button bindtap='change2'>{{fuy}}</button>
+</view>
+<view class='container' wx:for="{{aow}}" wx:key="index">
+  <!-- 视频在兼容性上非常差，尽量不绑定事件，如需要，在其父元素或与之相关其他元素上绑定-->  
+  <!-- show-mute-btn是否显示静音按钮,默认false -->
+  <!-- initial-time视频播放的初始时间 -->
+  <video show-mute-btn='true' id='v3' src='{{item.qt_vurl}}' bindplay='zhan'></video>
+  <!-- 广告 --> 
+  <image class="ad {{bl?'bl1':'bl2'}}" src='{{item.qt_ourl}}'></image>
+  <!-- 按钮元素 -->
+  <image class="ctr1 {{bl?'bl1':'bl2'}}" src='{{item.qt_turl}}'></image>
+  <view class='butom'>
+    {{welcome}}
+    <button bindtap='jinru'>{{maj}}</button>
+  </view>
+</view>

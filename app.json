@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/fu/fu",
+    "pages/myd/myd",
+    "pages/an/an",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mygame/mygame",
+    "pages/she/she",
+    "pages/yi/yi",
+    "pages/yijlu/yijlu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0af",
+    "navigationBarTitleText": "Game推",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#0af",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "玩游戏",
+        "iconPath": "pages/images/game.png",
+        "selectedIconPath": "pages/images/game-active.png"
+      },
+      {
+        "pagePath": "pages/an/an",
+        "text": "安利墙",
+        "iconPath": "pages/images/an.png",
+        "selectedIconPath": "pages/images/an-active.png"
+      },
+      {
+        "pagePath": "pages/fu/fu",
+        "text": "发现",
+        "iconPath": "pages/images/fa.png",
+        "selectedIconPath": "pages/images/fa-active.png"
+      },
+      {
+        "pagePath": "pages/myd/myd",
+        "text": "我的",
+        "iconPath": "pages/images/myd.png",
+        "selectedIconPath": "pages/images/myd-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

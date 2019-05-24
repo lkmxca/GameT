@@ -1,0 +1,26 @@
+/* pages/yijlu/yijlu.wxss */
+.top-yi{
+  width: 90%;
+  margin: 15rpx 5%;
+  /* border: 1rpx solid #f00; */
+  font-size: 30rpx;
+}
+.top-yi view{
+  margin: 8rpx 0;
+}
+.zui{
+  text-indent: 1em;
+}
+.ji::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.ji button{
+  background-color: #0af;
+  color: #fff;
+  width: 20%;
+  float: right;
+  margin: 28rpx;
+  font-size: 20rpx;
+}

@@ -1,0 +1,32 @@
+/* pages/mygame/mygame.wxss */
+.btn button,.nnei button{
+  width: 25%;
+  float: right;
+  font-size: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  background-color: #f00;
+  color: #fff;
+}
+.nnei{
+  /* border: 1px solid #f00; */
+  margin: 15rpx 0;
+}
+.nnei::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.nnei image{
+  width: 150rpx;height: 150rpx;
+  float: left;
+}
+.nnei text{
+  display: inline-block;
+  margin: 65rpx 20rpx 0 0;
+  font-size: 20rpx;
+}
+.nnei button{
+  margin: 65rpx 20rpx 0 0;
+  background-color: #0af;
+}

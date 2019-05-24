@@ -1,0 +1,15 @@
+<!--pages/she/she.wxml-->
+<!-- <text>pages/she/she.wxml</text> -->
+<view class='wait'>
+  <view class='wait-one'>{{wait}}</view>
+  <view class='bom' bindtap='tans'>{{xshuo}}</view>
+  <view class='main' style="display:{{isd ? 'block' : 'none'}}">
+    <!-- 叉号 -->
+    <image bindtap='guan' src='http://127.0.0.1:3600/she/cha.png'></image>
+    <text>{{shuo}}</text>
+    <text>{{text1}}</text>
+    <text>{{text2}}</text>
+    <button bindtap='guan'>{{good}}</button>
+  </view>
+</view>
+<view class='black' style="display:{{isd ? 'block' : 'none'}}"></view>

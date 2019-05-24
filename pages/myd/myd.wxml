@@ -1,0 +1,38 @@
+<!--pages/myd/myd.wxml-->
+<!-- <text>pages/myd/myd.wxml</text> -->
+<view class='myd'>
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='btn'> {{yname}} </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+
+
+ <!-- 我的游戏 -->
+ <view bindtap='mygame'>
+   <view class='lan'>
+     <text>{{mygame}}</text>
+     <text>></text>
+     <view></view>
+   </view>
+ </view>
+ <!-- 意见 -->
+ <view bindtap='myyi'>
+   <view class='lan'>
+     <text>{{myyi}}</text>
+     <text>></text>
+     <view></view>
+   </view>
+ </view>
+ <!-- 游戏通知设置 -->
+ <view bindtap='mytong'>
+   <view class='lan'>
+     <text>{{myshe}}</text>
+     <text>></text>
+   </view>
+ </view>
+</view>

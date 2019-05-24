@@ -1,0 +1,39 @@
+/* pages/myd/myd.wxss */
+.userinfo {
+  /* border: 1rpx solid #f00; */
+  /* margin-top:25%;  */
+}
+
+.userinfo-avatar {
+  border-radius: 50%;
+  width: 250rpx;height: 250rpx;
+  margin: 50rpx 35%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.btn{
+  background-color: #0af;
+  color: #fff;
+}
+
+.myd{
+  height: 100vh;
+  background: url('http://127.0.0.1:3600/myd/bg.JPG') no-repeat center center;
+  margin-top: -24rpx;
+  padding: 0 20rpx;
+}
+.lan{
+  /* border: 1rpx solid #f00; */
+  padding: 10rpx;
+  margin: 25rpx 0;
+  color: #fff;
+}
+.lan>text:nth-child(2){
+  float: right;
+}

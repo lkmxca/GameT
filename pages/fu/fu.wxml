@@ -1,0 +1,85 @@
+<!--pages/fu/fu.wxml-->
+<!-- <text>pages/fu/fu.wxml</text> -->
+<!-- 顶部轮播 -->
+<view class='ttop'>
+  <swiper autoplay='{{true}}' interval='{{1000}}' indicator-dots='{{true}}'>
+    <swiper-item wx:for='{{tlist}}' wx:key='index'>
+      <image src='{{item.qt_url}}'></image>
+    </swiper-item>
+  </swiper> 
+</view>
+<!-- 二次轮播 -->
+<view>
+  <swiper class='ttwolun'>
+    <swiper-item>
+      <view>
+        <view class='nn'>
+          <text>{{next}}</text>
+          <text bindtap='qdai'>{{months}}</text>
+        </view>
+        <view>
+          <view wx:for='{{tlist1}}' wx:key='index' class='mm'>
+            <image src='{{item.qt_ourl}}' class='tone'></image>
+            <image bindtap='jinru' src='{{item.qt_turl}}' class='ttwo'></image>
+            <text>{{item.qt_btext}}</text>
+            <text>{{item.qt_jtext}}</text>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <view class='nn'>
+          <text>{{next}}</text>
+          <text bindtap='qdai'>{{months}}</text>
+        </view>
+        <view>
+          <view wx:for='{{tlist2}}' wx:key='index' class='mm'>
+            <image src='{{item.qt_ourl}}' class='tone'></image>
+            <image bindtap='jinru' src='{{item.qt_turl}}' class='ttwo'></image>
+            <text>{{item.qt_btext}}</text>
+            <text>{{item.qt_jtext}}</text>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 更多内容 -->
+<view>
+  <view wx:for='{{tbom1}}' wx:key='index' class='bomt'>
+    <!-- 标题 -->
+    <text>{{item.qt_btext}}</text>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item. qt_tyiurl}}'></image>
+      <text>{{item.qt_tyitext}}</text>
+    </view>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item. qt_terurl}}'></image>
+      <text>{{item.qt_tertext}}</text>
+    </view>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item. qt_tsanurl}}'></image>
+      <text>{{item.qt_tsantext}}</text>
+    </view>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item. qt_tsiurl}}'></image>
+      <text>{{item.qt_tsitext}}</text>
+    </view>
+  </view>
+  <view wx:for='{{tbom2}}' wx:key='index' class='bomt'>
+    <text>{{item.qt_btext}}</text>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item.qt_tyiurl}}'></image>
+      <text>{{item.qt_tyitext}}</text>
+    </view>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item. qt_terurl}}'></image>
+      <text>{{item.qt_tertext}}</text>
+    </view>
+    <view class='bomt-in' bindtap='jinru'>
+      <image src='{{item. qt_tsanurl}}'></image>
+      <text>{{item.qt_tsantext}}</text>
+    </view>
+  </view>
+</view>

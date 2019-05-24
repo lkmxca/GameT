@@ -1,0 +1,63 @@
+/* pages/she/she.wxss */
+.wait{
+  width: 100%;height: 100vh;
+  background: url('http://127.0.0.1:3600/she/bg.gif') no-repeat center center;
+  background-size: contain;
+}
+.wait-one{
+  width: 100%;
+  text-align: center;
+  margin-top: 25%;
+  color: #ddd;
+}
+.bom{
+  position: fixed;
+  bottom: 5%;left: 41%;
+  text-align: center;
+  text-decoration: underline;
+  color: #ddd;
+}
+.main{
+  position: fixed;
+  left:15%;top: 26%; 
+  width: 70%;
+  border-radius: 10rpx;
+  /* border: 1rpx solid #f00; */
+  font-size: 25rpx;
+  padding: 15rpx;
+  background: #fff;
+  z-index: 1000;
+}
+.main image{
+  width: 40rpx;height: 40rpx;
+  display: block;
+  position: absolute;
+  right: 2%;top: 2%;
+}
+.main text{
+  display: block;
+  text-align: center;
+  margin: 20rpx 0;
+  color: rgb(194, 194, 188);
+}
+.main text:nth-child(2){
+  display: block;
+  font-weight: bold;
+  margin-top: 3%;
+  font-size: 30rpx;
+  color: #000;
+}
+.main button{
+  width: 40%;
+  margin: 0 30%;
+  background-color: #0af;
+  color: #fff;
+  font-size: 20rpx;
+}
+.black{
+  background-color: rgba(0,0,0,.2);
+  width: 100%;height: 100vh;
+  /* border: 1rpx solid #f00; */
+  position: fixed;
+  top: 0%;
+}

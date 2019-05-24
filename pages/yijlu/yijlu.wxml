@@ -1,0 +1,14 @@
+<!--pages/yijlu/yijlu.wxml-->
+<!-- <text>pages/yijlu/yijlu.wxml</text> -->
+<view>
+  <!-- 删除记录 -->
+  <view class='ji'>
+    <button bindtap='clearboth'>清除记录</button>
+  </view>
+  <view wx:for='{{low}}' wx:key='index' class='top-yi'>
+    <!-- 时间 -->
+    <view>{{item.qt_ytime}}</view>
+    <!-- 意见文件 -->
+    <view class='zui'>{{item.qt_yij}}</view>
+  </view>
+</view>

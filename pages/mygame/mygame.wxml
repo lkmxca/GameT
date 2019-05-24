@@ -1,0 +1,15 @@
+<!--pages/mygame/mygame.wxml-->
+<!-- <text>pages/mygame/mygame.wxml</text> -->
+<view>
+  <view class='btn'>
+    <button bindtap='clear'>{{clear}}</button>
+  </view>
+  <view style='clear:both'>
+    <view wx:for='{{mmu}}' wx:key="index" class='nnei'>
+      <image src='{{item.qt_url}}'></image>
+      <text>{{item.qt_time}}</text>
+      <text>{{item.qt_text}}</text>
+      <button bindtap='jjnn'>{{maj}}</button>
+    </view>
+  </view>
+</view>

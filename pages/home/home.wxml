@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class='section'>
+  <view wx:for='{{row}}' wx:key="index" class='jingxuan' data-id='{{item.qt_wwid}}' bindtap='navget'>
+  <!-- 日期 -->
+    <!-- <text>{{item.qt_month}}月{{item.qt_date}}日</text> -->
+    <!-- 主图 -->
+    <image src='{{item.qt_bimgurl}}'></image>
+    <view>
+      <image src='{{item.qt_simgurl}}'></image>
+      <text>{{item.qt_text}}</text>
+      <button bindtap='dianji'>{{mas}}</button>
+    </view> 
+  </view>
+</view>

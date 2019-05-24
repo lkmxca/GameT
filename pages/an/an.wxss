@@ -1,0 +1,57 @@
+/* pages/an/an.wxss */
+/* 安利墙内容 */
+.top button{
+  color: #ddd;
+  width: 50%;
+  float: left;
+  margin-bottom: 20rpx;
+}
+.container{
+  /* border:1rpx solid #f00; */
+  /* height: 500rpx; */
+  clear: both;
+  position: relative;
+  margin-top: 10rpx;
+}
+/* 按钮图 */
+.ctr1{
+  position: absolute;
+  left: 40%;top: 26%;
+  width: 150rpx;height: 150rpx;
+  z-index: 20;
+}
+.bl1{
+  display: block;
+}
+.bl2{
+  display: none;
+}
+/* 视频 */
+#v3{
+  margin-top: -200rpx;
+  border-radius: 10px;
+}
+/* 广告 */
+.ad{
+  border-radius: 10px;
+  width:94%;
+  height: 525rpx;
+  position: absolute;
+  top:-2rpx;
+  /* opacity: 0; */
+  /* z-index: 10; */
+}
+.butom{
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  /* border: 1rpx solid #f00; */
+  font-size: 4vw;
+}
+.butom button{
+  background-color: #0af;
+  color: #fff;
+  height: 60rpx;line-height: 60rpx;
+  margin-top:10rpx;
+  font-size: 3vw;
+}

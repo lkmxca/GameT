@@ -1,0 +1,26 @@
+<!--pages/yi/yi.wxml-->
+<!-- <text>pages/yi/yi.wxml</text> -->
+<view>
+  <form class='wc-yi' bindsubmit="formSubmit">
+    <view>
+      <text>您的邮箱：</text>
+      <input type='email' name='yemail' placeholder='请输入邮箱'></input>
+    </view>
+    <view>
+      <text>您的手机号：</text>
+      <input type='tel' name='yphone' placeholder='请输入手机号'></input>
+    </view>
+    <view>
+      <text>您的意见：</text>
+      <textarea type='text' name='yider' placeholder='2到200字中文汉字'></textarea>
+    </view>
+    <view>
+      <button form-type="submit">提交</button>
+    </view>
+  </form>
+  <view class='bom'>
+    <text bindtap='dtiao'>
+      意见记录
+    </text>
+  </view>
+</view>

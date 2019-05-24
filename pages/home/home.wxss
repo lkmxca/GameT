@@ -1,0 +1,44 @@
+/* pages/home/home.wxss */
+.section{
+  background-color: rgba(230, 225, 225,.3); 
+  margin-top: -4px;
+}
+.jingxuan{
+  /* border: 1rpx solid #f00; */
+  padding: 0 20rpx;
+  margin: 15rpx 0;
+}
+.jingxuan>text{
+  font-weight: bold;
+  display: block;
+  margin: 15rpx 0;
+}
+.jingxuan>image{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  display: block;
+}
+.jingxuan>view{
+  background-color: #fff;
+  height: 100rpx; 
+}
+.jingxuan>view image{
+  width: 100rpx;height: 100rpx;
+  float: left;
+}
+.jingxuan>view text{
+  display: inline-block;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: left;
+  /* border: 1rpx solid #f00; */
+  font-size: 30rpx;
+}
+.jingxuan>view button{
+  width: 20%;
+  font-size: 20rpx;
+  float: right;
+  margin: 30rpx;
+  background-color: #0af;
+  color:#fff;
+}
